@@ -15,7 +15,6 @@ def heap_sort(iterable):
         return h
 
 cable_lengths = [2, 12, 11, 13, 5, 6, 7]
-total_exp = total_len = sum(cable_lengths)
-sorted_arr_asc = heap_sort(cable_lengths)
-print("Combined final cable:", sorted_arr_asc)
+cable_length = heap_sort(cable_lengths)
+print("Combined final cable length:", cable_length[0])
 
